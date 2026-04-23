@@ -15,11 +15,11 @@ class Mihome extends HTMLElement {
                 border-radius: 12px;
                 box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
                 font-family: Arial, sans-serif;
-                color: #333;
+                color: #7c7171;
             }
             h2 {
                 text-align: center;
-                color: #1a3d6b;
+                color: #1d56a1;
             }
             p {
                 line-height: 1.8;
@@ -27,7 +27,7 @@ class Mihome extends HTMLElement {
             }
             ul {
                 margin: 16px 0 0 20px;
-                color: #333;
+                color: #807878;
             }
         </style>
         <div class="home">

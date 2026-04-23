@@ -33,9 +33,9 @@ class MiContacto extends HTMLElement {
         <div class="container">
             <h2>Contacto</h2>
             <p><strong>Nombre:</strong> Equipo de Galería</p>
-            <p><strong>Email:</strong> contacto@galeriaejemplo.com</p>
-            <p><strong>Teléfono:</strong> 099-999-9999</p>
-            <p><strong>Dirección:</strong> Calle Principal #123, Latacunga</p>
+            <p><strong>Email:</strong> kelvin1ecua@gmail.com</p>
+            <p><strong>Teléfono:</strong> 0997897362</p>
+            <p><strong>Dirección:</strong> Coop.30 de junio, Calle patricia Pilar 704</p>
             <p><strong>Horario:</strong> Lunes a Viernes, 9:00 - 18:00</p>
         </div>
         `;
