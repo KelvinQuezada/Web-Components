@@ -28,9 +28,9 @@ class Midirection extends HTMLElement {
       <div class="container">
         <h2>Dirección</h2>
         <p><strong>Nombre:</strong> Kelvin Quezada</p>
-        <p><strong>Ciudad:</strong> Latacunga</p>
-        <p><strong>Dirección:</strong> Barrio Ejemplo, Calle Principal</p>
-        <p><strong>Teléfono:</strong> 0999999999</p>
+        <p><strong>Ciudad:</strong> Santo Domingo</p>
+        <p><strong>Dirección:</strong> Plan de Vivienda</p>
+        <p><strong>Teléfono:</strong> 0997897362</p>
       </div>
     `;
     }
