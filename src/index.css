@@ -1,0 +1,42 @@
+:root {
+  color-scheme: light dark;
+  background-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #16171d;
+  }
+}
+
+/* Aplicamos estilos básicos al html y body para que ocupen todo el alto */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column; /* Coloca Header, App y Footer en vertical */
+  min-width: 320px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Este es el contenedor donde el Router inyectará las páginas */
+#app {
+  flex: 1; /* Esto hace que el contenido crezca y empuje el footer al final */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Estilo opcional para que los componentes de Lit se vean bien */
+my-element {
+  display: block;
+  width: 100%;
+}
